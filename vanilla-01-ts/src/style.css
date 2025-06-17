@@ -116,3 +116,36 @@ h1 {
   text-align: center; /* Centrado de texto */
   text-shadow: 0 0 4px #16a34a88; /* Suave sombra verde para resaltar */
 }
+
+.about-me {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1.5rem 2rem;
+  background-color: #000000; /* fondo negro puro */
+  color: #d4d4d4; /* gris claro neutro para texto */
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 128, 0, 0.15); /* sombra verde muy sutil */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+}
+
+.about-me p {
+  margin: 0.8rem 0;
+  font-size: 1.1rem;
+  color: #a0b39e; /* verde grisáceo, sutil */
+}
+
+.about-me p:first-child {
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: #7ca982; /* verde apagado, suave pero distinguido */
+  margin-bottom: 1.2rem;
+  border-bottom: 2px solid #7ca982;
+  padding-bottom: 0.4rem;
+}
+
+.about-me p:last-child {
+  font-style: italic;
+  color: #8fae9f; /* verde grisáceo claro */
+  margin-top: 1.4rem;
+}
