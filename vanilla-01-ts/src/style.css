@@ -1,0 +1,118 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #242424;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  width: 100%;
+}
+
+/* Aquí tu clase personalizada para el contenido */
+
+.content-section {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: rgba(30, 30, 30, 0.85);
+  border-radius: 1rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.8);
+  color: rgba(255, 255, 255, 0.9);
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+.content-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.content-section h1 span {
+  color: #4ade80; /* verde emeraldo */
+  font-weight: 700;
+}
+
+.content-section hr {
+  border: none;
+  height: 2px;
+  width: 80px;
+  background-color: #4ade80;
+  margin: 1rem auto 2rem;
+  border-radius: 2px;
+}
+
+.content-section p {
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+.content-section hr {
+  border: none;
+  height: 3px;
+  width: 60%;
+  background: linear-gradient(to right, #22c55e, #16a34a);
+  margin: 1.5rem auto; /* centrado horizontalmente */
+  border-radius: 2px;
+  box-shadow: 0 0 8px #22c55e88;
+}
+
+.content-section div p {
+  font-size: 1.25rem; /* Texto un poco más grande */
+  color: #bbf7d0; /* Verde claro para buen contraste */
+  max-width: 600px; /* Limita ancho para mejor lectura */
+  margin: 1rem auto 0; /* Centrado horizontal, margen superior */
+  line-height: 1.6; /* Mejor espaciado entre líneas */
+  font-weight: 400; /* Normal para lectura cómoda */
+  text-align: center; /* Centrado de texto */
+  text-shadow: 0 0 4px #16a34a88; /* Suave sombra verde para resaltar */
+}
